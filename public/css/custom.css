@@ -1,0 +1,51 @@
+.main-sidebar{
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    top: 55px;
+    left: 0;
+    background-color:#37393b ;
+    overflow-x: hidden;
+}
+
+.main-sidebar a{
+    color: aliceblue;
+    display: block;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-sidebar a:hover{
+    background-color: #2e53b0;
+    color:white ;
+    text-decoration: none;
+}
+
+.main-content{
+    margin-left: 15%;
+}
+
+.rubrik-chart{
+    min-height: 300px;
+}
+
+.rubrik-summary{
+    min-height: 300px;
+}
+
+.rubrik-scheduled-post{
+    min-height: 300px;
+}
+
+.rubrik-posted{
+    min-height: 300px;
+}
+
+.rubrik-ongoing-task{
+    min-height: 899px;
+}
+
+.scheduled-post-table{
+    height: 300px;
+}

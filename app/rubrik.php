@@ -6,9 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class rubrik extends Model
 {
-    //
+    protected $fillable = ['name','deskripsi'];
 
-    public function tasks(){
-        return $this->hasMany('App\task');
+    public function posts(){
+        return $this->hasMany('App\Post');
     }
 }

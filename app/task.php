@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class task extends Model
 {
     //
-    public function rubrik(){
-        return $this->belongsTo('App\Rubrik');
+    public function post(){
+        return $this->belongsTo('App\Post');
     }
 
     public function task_to_user(){
